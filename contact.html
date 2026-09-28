@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ | ニッコー通信株式会社</title>
+<meta name="description" content="ニッコー通信株式会社へのお問い合わせはこちら。お電話・フォームで承っております。">
+<link rel="stylesheet" href="css/style.css?v=6">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="index.html" class="logo"><img src="img/logo.png" alt="ニッコー通信株式会社"></a>
+    <nav class="main-nav">
+      <a href="index.html">ホーム</a>
+      <a href="company.html">会社情報</a>
+      <a href="service.html">事業内容</a>
+      <a href="works.html">施工実績</a>
+      <a href="recruit.html">採用情報</a>
+      <a href="contact.html" class="current">お問い合わせ</a>
+    </nav>
+    <div class="header-cta">
+      <div class="tel-block">お電話でのお問い合わせ<br><span class="num">03-3677-1111</span></div>
+    </div>
+    <button class="hamburger" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="mobile-nav">
+    <a href="index.html">ホーム</a>
+    <a href="company.html">会社情報</a>
+    <a href="service.html">事業内容</a>
+    <a href="works.html">施工実績</a>
+    <a href="recruit.html">採用情報</a>
+    <a href="contact.html">お問い合わせ</a>
+    <div class="tel-block">お電話でのお問い合わせ<br><span class="num">03-3677-1111</span></div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">ホーム</a> ／ お問い合わせ</div>
+      <span class="eyebrow">CONTACT</span>
+      <h1>お問い合わせ</h1>
+      <p>お電話・メールフォームどちらでも承っております。現地調査・お見積りは無料です。</p>
+    </div>
+  </section>
+
+  <!-- 電話・FAX -->
+  <section class="section">
+    <div class="container">
+      <div class="grid cols-2" style="max-width:640px; margin:0 auto;">
+        <div class="card text-center">
+          <p class="small">お電話</p>
+          <p style="font-size:24px; font-weight:800; margin:8px 0;">03-3677-1111</p>
+          <p class="small">受付時間：平日 9:00〜18:00（土日祝を除く）</p>
+        </div>
+        <div class="card text-center">
+          <p class="small">FAX</p>
+          <p style="font-size:24px; font-weight:800; margin:8px 0;">03-3678-2322</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- フォーム -->
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">FORM</span><h2>お問い合わせフォーム</h2></div>
+      <form class="form" style="margin:0 auto;" id="contact-form">
+        <div class="field">
+          <label>お名前<span class="req">必須</span></label>
+          <input type="text" name="name" required>
+        </div>
+        <div class="field">
+          <label>会社名</label>
+          <input type="text" name="company">
+        </div>
+        <div class="field">
+          <label>電話番号<span class="req">必須</span></label>
+          <input type="tel" name="tel" required>
+        </div>
+        <div class="field">
+          <label>メールアドレス<span class="req">必須</span></label>
+          <input type="email" name="email" required>
+        </div>
+        <div class="field">
+          <label>お問い合わせ種別<span class="req">必須</span></label>
+          <select name="type" required>
+            <option value="">選択してください</option>
+            <option>通信・セキュリティ工事について</option>
+            <option>施工実績について</option>
+            <option>採用について</option>
+            <option>その他</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>お問い合わせ内容<span class="req">必須</span></label>
+          <textarea name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">送信する</button>
+        <p class="form-note" style="margin-top:16px;" id="form-status"></p>
+      </form>
+      <!--
+        このフォームは送信先が未接続の静的デモです。
+        公開前に、送信を処理するサーバー側の仕組み（自社サーバーのフォーム受信スクリプト、
+        またはフォーム送信サービス等）を action 属性に設定してください。
+      -->
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">FAQ</span><h2>よくある質問</h2></div>
+      <div style="max-width:700px; margin:0 auto;">
+        <div class="accordion-item open">
+          <button class="accordion-q"><span>Q. 対応エリアはどこまでですか？</span><span class="plus">+</span></button>
+          <div class="accordion-a"><div class="accordion-a-inner">A. 東京都江戸川区を中心に、都内近郊で対応しております。詳しいエリアはお気軽にお問い合わせください。</div></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-q"><span>Q. お見積りは無料ですか？</span><span class="plus">+</span></button>
+          <div class="accordion-a"><div class="accordion-a-inner">A. はい、無料です。現地を確認のうえ、詳しいお見積りをご提示いたします。</div></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-q"><span>Q. お支払い条件について教えてください。</span><span class="plus">+</span></button>
+          <div class="accordion-a"><div class="accordion-a-inner">A. 工事完了後、請求書発行から30日以内にお振込みをお願いしております。詳細はご相談に応じます。</div></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-q"><span>Q. 夜間・緊急対応は可能ですか？</span><span class="plus">+</span></button>
+          <div class="accordion-a"><div class="accordion-a-inner">A. 緊急のご相談にも可能な限り対応いたします。まずはお電話にてご相談ください。</div></div>
+        </div>
+      </div>
+      <p class="text-center small" style="margin-top:20px;">4問とも一般的な回答を仮置きしています。実際の運用（特に緊急対応の可否や支払いサイト）と異なる場合は必ず修正してください。</p>
+    </div>
+  </section>
+
+  <!-- 対応エリア・対応時間 -->
+  <section class="section alt">
+    <div class="container text-center">
+      <div class="section-head"><span class="eyebrow">AREA & HOURS</span><h2>対応エリア・対応時間</h2></div>
+      <p style="color:var(--ink-soft);">対応エリア：東京都江戸川区を中心とした東京都内<br>対応時間：平日 9:00〜18:00（土日祝を除く）</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img class="flogo" src="img/logo-white.png" alt="ニッコー通信株式会社">
+      <p>〒132-0001<br>東京都江戸川区新堀1丁目25-10<br>TEL 03-3677-1111／FAX 03-3678-2322</p>
+    </div>
+    <div>
+      <h4>サイトメニュー</h4>
+      <ul><li><a href="company.html">会社情報</a></li><li><a href="service.html">事業内容</a></li><li><a href="works.html">施工実績</a></li></ul>
+    </div>
+    <div>
+      <h4>&nbsp;</h4>
+      <ul><li><a href="recruit.html">採用情報</a></li><li><a href="contact.html">お問い合わせ</a></li></ul>
+    </div>
+    <div>
+      <h4>規約</h4>
+      <ul><li><a href="privacy.html">プライバシーポリシー</a></li></ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© NIKKOTSUSHIN CO., LTD.</div>
+</footer>
+
+<script src="js/main.js?v=2"></script>
+<script>
+  // デモ用：送信先が未接続のため、実際には送信せず案内のみ表示します。
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('form-status').textContent =
+      '※現在このフォームは送信先が未接続のデモです。公開前にフォーム送信の仕組みを接続してください。';
+  });
+</script>
+</body>
+</html>

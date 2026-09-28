@@ -1,0 +1,59 @@
+ニッコー通信サイト 使用画像クレジット一覧
+====================================
+
+このフォルダの画像はすべて Openverse（openverse.org）経由で取得した
+商用利用可・改変可のフリー素材（CC0 / CC BY / CC BY-SA）です。
+人物写真は「特定の人物に見える写真」を避けるため、機材・現場の写真に統一しています。
+
+【重要】あくまで完成イメージを見るための仮画像です。
+公開前に、実際の施工写真・自社写真に差し替えることを推奨します。
+CC BY / CC BY-SA の画像をこのまま公開に使う場合は、下記のクレジット表記が必要です。
+（CC0 は表記不要ですが、出典として記載しています）
+
+------------------------------------------------------------
+■ ファイル: svc-network.jpg（works-2.jpg も同一画像）
+  使用箇所：事業内容「ネットワーク構築」／会社情報フォトバナー／採用情報「採用メッセージ」／施工実績カード
+  タイトル：Networked
+  作者　　：jessicafm
+  ライセンス：CC BY 2.0
+  出典URL：https://www.flickr.com/photos/94953676@N00/88652740
+
+■ ファイル: svc-phone.jpg
+  使用箇所：事業内容「電話設備工事」
+  タイトル：Office phone
+  ライセンス：CC BY-ND 2.0（改変不可。サイズ縮小のみ、トリミング等の加工はしていません）
+  出典URL：https://www.flickr.com/photos/.../6127853053
+
+■ ファイル: svc-camera.jpg
+  使用箇所：ホーム ヒーロー背景／事業内容「防犯カメラ・セキュリティ設備」
+  タイトル：CCTV cameras wall surveillance
+  作者　　：Markus Spiske
+  ライセンス：CC0 1.0（表記不要）
+  出典URL：https://www.rawpixel.com/image/432255/cctv-surveillance-camera
+
+■ ファイル: works-3.jpg（pick-2.jpg・ホーム施工実績カードも同一画像）
+  使用箇所：ホーム施工実績カード／施工実績カード／事業内容フォトバナー
+  タイトル：Security camera
+  作者　　：Ervins Strauhmanis
+  ライセンス：CC BY 2.0
+  出典URL：https://www.flickr.com/photos/76523360@N03/14550466174
+
+■ ファイル: works-5.jpg（cat-comm.jpg も同一画像）
+  使用箇所：ホーム「通信・セキュリティ設備工事」フィーチャー行／60周年フォトバナー／施工実績カード／施工実績フォトバナー
+  タイトル：Data storm
+  作者　　：Herkie
+  ライセンス：CC BY-SA 2.0
+  出典URL：https://www.flickr.com/photos/44038067@N00/450303689
+
+■ ファイル: banner-recruit.jpg
+  使用箇所：採用情報 フォトバナー
+  タイトル：（ネットワーク機器のケーブル配線写真）
+  ライセンス：CC BY 系（詳細は img/stock/_credits.json の元データを参照）
+
+------------------------------------------------------------
+【地図について】
+会社情報ページのアクセス地図は、実際のGoogleマップ埋め込み（住所指定）です。そのまま公開できます。
+
+【削除・未使用について】
+電気設備工事関連（電気設備・太陽光・分電盤・LED照明・保守点検等）のセクション・画像はご依頼によりすべて削除済みです。
+このフォルダには過去に使用を検討したが不採用となった画像（img/stock/、img/placeholders/、pick-1.jpg・pick-3.jpg・works-1/4/6.jpg・hero.jpg・cat-electrical.jpg・svc-led/maintenance/solar/wiring/cubicle.jpg・banner-company.jpg 等）が残っていますが、現在のHTMLからは参照されていません。GitHub公開リポジトリには含めていません。
